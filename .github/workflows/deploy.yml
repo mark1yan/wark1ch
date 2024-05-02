@@ -60,7 +60,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "https://mark1yan.github.com/wark1ch/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -70,7 +70,7 @@ jobs:
   deploy:
     environment:
       name: gh-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://mark1yan.github.com/wark1ch/
     runs-on: ubuntu-latest
     needs: build
     steps:
