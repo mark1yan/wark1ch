@@ -1,0 +1,4 @@
+baseURL = 'https://mark1yan.github.com/wark1ch'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'PaperMod'
